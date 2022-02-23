@@ -1,0 +1,53 @@
+:root {
+  --primary-color: rgb(15, 15, 66);
+  --white-color: rgb(255, 255, 255);
+}
+
+.container {
+  background: rgb(245, 245, 245);
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloLogin {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  color: var(--primary-color);
+}
+
+.inputlogin {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 0px;
+}
+
+.buttonEntrar {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 10px;
+}
+
+.formulario {
+  width: 300px;
+}
+
+input {
+  border-radius: 6px;
+  padding: 8px;
+  border-style: none;
+}
+
+.checar {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 0.7px;
+}
