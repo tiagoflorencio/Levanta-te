@@ -1,0 +1,51 @@
+:root {
+  --primary-color: rgb(15, 15, 66);
+  --white-color: rgb(255, 255, 255);
+  --width: 605.141px;
+  --blue: rgb(45, 80, 235);
+}
+
+.voltar {
+  width: var(--width);
+  align-items: left;
+  padding-left: 25px;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+#h1 {
+  color: var(--primary-color);
+  font-size: 45px;
+}
+.container {
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.cabecalho {
+  justify-items: left;
+  font-size: 20px;
+}
+
+.input {
+  width: 756.422px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  padding-bottom: 5px;
+  font-weight: bolder;
+  font-family: Arial;
+}
+
+.buttom {
+  width: 756.422px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+}
