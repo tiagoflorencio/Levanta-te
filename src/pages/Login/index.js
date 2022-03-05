@@ -1,9 +1,11 @@
 import React from 'react';
+import { Container } from '../../componentes/Container';
 import './login.styles.css';
+import { Button } from '../../componentes/Button';
 
 const Login = () => {
   return (
-    <div className="container">
+    <Container>
       <div className="logo">
         <h1>LOGO</h1>
       </div>
@@ -26,11 +28,11 @@ const Login = () => {
             <p>Esqueceu sua senha</p>
           </div>
           <div className="inputlogin">
-            <button className="buttonEntrar">Entrar</button>
+            <Button>Entrar</Button>
           </div>
         </form>
       </div>
-    </div>
+    </Container>
   );
 };
 

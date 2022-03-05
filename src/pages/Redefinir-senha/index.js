@@ -1,9 +1,11 @@
 import React from 'react';
 import './redefinir.style.css';
+import { Container } from '../../componentes/Container';
+import { Button } from '../../componentes/Button';
 
 const RedefinirSenha = () => {
   return (
-    <div className="container">
+    <Container>
       <div className="cabecalho">
         <div className="voltar">
           <p> &lt; Voltar </p>
@@ -18,10 +20,9 @@ const RedefinirSenha = () => {
         <label>E-mail</label>
         <input type="email" id="email"></input>
       </div>
-      <div className="buttom">
-        <button className="buttom">Continuar</button>
-      </div>
-    </div>
+
+      <Button fullWidth>Continuar</Button>
+    </Container>
   );
 };
 export default RedefinirSenha;
